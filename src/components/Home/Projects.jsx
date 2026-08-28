@@ -1,38 +1,41 @@
 import React from "react";
 import Image from "next/image";
 
+
 const projects = [
   {
     title: "TriAxon Technology",
     description:
-      "A full-stack task management app with user authentication, tasks, and dashboard.",
+      "A modern business website designed to showcase TriAxon Technology’s services, solutions, and digital presence with a responsive and professional interface.",
     tags: ["HTML", "Tailwindcss", "React.js"],
     image:
-      "/Triaxon_tech.png", // Replace with your project preview image
+      "/Triaxon_tech.png",
     githubUrl: "https://github.com",
     liveUrl: "https://tri-axon.vercel.app",
   },
   {
     title: "Crochet Alif",
     description:
-      "Responsive e-commerce website with product listing, cart and checkout functionality.",
+      "A creative e-commerce website for showcasing handmade crochet products, featuring a clean product-focused design and responsive shopping experience.",
     tags: ["HTML", "Tailwindcss", "React.js"],
     image:
-      "/crocket_by_alif.png", // Replace with your project preview image
+      "/crocket_by_alif.png",
     githubUrl: "https://github.com",
     liveUrl: "https://crochet-alif.vercel.app",
   },
   {
     title: "Ultimate Gaming Zone",
     description:
-      "A minimal blog website to share thoughts and articles. Built with React and Markdown.",
+      "A gaming-focused website built to create an engaging digital experience with a modern interface, interactive sections, and responsive design.",
     tags: ["HTML", "Tailwindcss", "React.js"],
     image:
-      "/Gaming_Zone.png", // Replace with your project preview image
+      "/Gaming_Zone.png",
     githubUrl: "https://github.com",
     liveUrl: "https://ultimate-gam-zone.vercel.app",
   },
 ];
+
+
 
 export default function Projects() {
   return (
