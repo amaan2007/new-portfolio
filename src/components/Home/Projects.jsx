@@ -33,6 +33,16 @@ const projects = [
     githubUrl: "https://github.com",
     liveUrl: "https://ultimate-gam-zone.vercel.app",
   },
+  {
+    title: "Netflix Home page clone",
+    description:
+       "A responsive Netflix-inspired landing page built with HTML and CSS, featuring a modern dark interface, movie sections, navigation, and a cinematic streaming-platform layout.",
+    tags: ["HTML", "CSS"],
+    image:
+      "/Netflix_clone_img.png",
+    githubUrl: "https://github.com",
+    liveUrl: "https://netflix-clone-nine-eosin-55.vercel.app",
+  },
 ];
 
 
